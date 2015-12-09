@@ -17,10 +17,11 @@
 #    owncloud_version - This is the version of owncloud you would like 
 #	to download.
 
-
+###! IMPORTANT ! DO NOT IGNORE ! ###
 server_port="81"
-server_ip="192.168.1.101"
-owncloud_version="8.2.1"   # Also edit line 200 (fetch "https://download.owncloud.org/community/owncloud-8.2.1.tar.bz2") so that it matches this line.
+server_ip="192.168.1.202"
+owncloud_version="8.2.1"   # Also edit line 201 (fetch "https://download.owncloud.org/community/owncloud-8.2.1.tar.bz2") so that it matches this line.
+### No need to edit below here unless you are changing the version of owncloud that is downloaded. ###
 
 
 
@@ -227,8 +228,10 @@ echo " "
 
 echo " " 
 echo "################################################" 
-echo "  It looks like we finished!!! NICE"
+echo " It looks like we finished!!! NICE"
 echo " Now you can head to your ip:port as defined at the start of this script "
-echo " via your browser and complete your OwnCloud setup!"
+echo " via your browser and complete your OwnCloud setup! "
+echo " Thanks to fsbruva for creating the original script " 
+echo " Modifications made by Nostalgist92 " 
 echo "################################################ "
 echo " "
