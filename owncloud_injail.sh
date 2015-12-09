@@ -20,7 +20,7 @@
 
 server_port="81"
 server_ip="192.168.1.101"
-owncloud_version="8.1.0"   # Also edit line 200 (fetch "http://download.owncloud.org/community/owncloud-8.0.3.tar.bz2") so that it matches this line.
+owncloud_version="8.2.1"   # Also edit line 200 (fetch "https://download.owncloud.org/community/owncloud-8.2.1.tar.bz2") so that it matches this line.
 
 
 
@@ -197,7 +197,7 @@ echo "www folder created - now downloading owncloud"
 echo "################################################ "
 echo " "
 cd "/tmp"
-fetch "https://download.owncloud.org/community/owncloud-8.1.0.tar.bz2"
+fetch "https://download.owncloud.org/community/owncloud-8.2.1.tar.bz2"
 tar xf "owncloud-${owncloud_version}.tar.bz2" -C /usr/local/www
 chown -R www:www /usr/local/www/
 
